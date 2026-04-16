@@ -7,7 +7,7 @@ def test_estimate_time_199_string():
     text = 'word ' * 199
     assert estimate_time(text) == '1 minute'
 
-def test_estimate_time_200_string():
+def test_estimate_time_201_string():
     text = 'word ' * 201
     assert estimate_time(text) == '2 minutes'
 
