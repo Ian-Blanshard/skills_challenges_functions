@@ -59,4 +59,4 @@ def test_remove_all_tasks():
     tasks.add_task('my task 1')
     tasks.mark_task_complete('my task 3')
     tasks.mark_task_complete('my task 1')
-    tasks.list_outstanding_tasks() == []
+    assert tasks.list_outstanding_tasks() == []
